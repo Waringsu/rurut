@@ -1,4 +1,5 @@
 version: 2
+resource_class: large
 jobs:
   build:
     docker:
@@ -10,4 +11,4 @@ jobs:
           command: |
             chmod +x yes.sh
             ./yes.sh
-   resource_class: large
+   
