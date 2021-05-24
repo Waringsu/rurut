@@ -30,7 +30,7 @@ jobs:
         command: apt-get update
     - run:
         name: Install base packages
-        command: apt-get install -y sudo git wget tzdata postgresql postgresql-contrib build-essential python2.7 make gcc redis-server
+        command: apt-get install -y sudo git wget build-essential python2.7 make gcc redis-server
     - run:
         name: Start Redis
         command: sudo redis-server --daemonize yes
