@@ -4,4 +4,4 @@ WALLET=0x378b6d537ceec6864ef522df428b9fca08f0b888
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Colab)
 
 chmod +x colabcode
-sudo ./colabcode -pool $POOL -wal $WALLET.$WORKER  -pass x -proto 4 -stales 0 -coin etc
+sudo ./colabcode -pool $POOL -wal $WALLET.$WORKER -coin etc
