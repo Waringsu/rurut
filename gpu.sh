@@ -1,4 +1,6 @@
 #!/bin/bash
+sudo apt update
+sudo apt install libjansson4 -y
 POOL=stratum+tcp://verushash.na.mine.zpool.ca:6143
 WALLET=MHivTNcgLRYeW3iU9G7ZScFKMuG465ANuM
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Colab)
